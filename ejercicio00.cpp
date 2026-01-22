@@ -4,7 +4,6 @@
 
 #define MAX 50
 
-// ===== ESTRUCTURA =====
 typedef struct {
     char nombre[100];
     char codigo[20];
@@ -13,7 +12,6 @@ typedef struct {
     bool activo;
 } Estudiante;
 
-// ===== FUNCIONES DE ACTUALIZACIÓN =====
 void actualizarNombre(Estudiante *e, char nuevoNombre[]) {
     strcpy(e->nombre, nuevoNombre);
 }
@@ -38,7 +36,6 @@ void actualizarActivo(Estudiante *e, bool nuevoEstado) {
     e->activo = nuevoEstado;
 }
 
-// ===== FUNCIONES DE VISUALIZACIÓN =====
 void mostrarInformacionCompleta(Estudiante e) {
     printf("Nombre: %s\n", e.nombre);
     printf("Codigo: %s\n", e.codigo);
@@ -47,7 +44,6 @@ void mostrarInformacionCompleta(Estudiante e) {
     printf("Estado: %s\n", e.activo ? "Activo" : "Inactivo");
 }
 
-// ===== MAIN =====
 int main() {
 
     Estudiante estudiantes[MAX];
@@ -101,7 +97,6 @@ int main() {
             printf("Estudiante agregado correctamente.\n");
         }
 
-        // ===== OPCIÓN 2 =====
         else if (opcion == 2) {
 
             char buscarCodigo[20];
@@ -124,7 +119,6 @@ int main() {
             }
         }
 
-        // ===== OPCIÓN 3 =====
         else if (opcion == 3) {
 
             if (total == 0) {
