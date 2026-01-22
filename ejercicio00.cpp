@@ -58,9 +58,8 @@ int main() {
         printf("4. Salir\n");
         printf("Elige una opcion: ");
         scanf("%d", &opcion);
-        getchar(); // limpiar ENTER
+        getchar(); 
 
-        // ===== OPCIÓN 1 =====
         if (opcion == 1 && total < MAX) {
 
             char nombre[100];
