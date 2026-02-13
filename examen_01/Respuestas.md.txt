@@ -1,0 +1,10 @@
+Respuestas.md
+
+1. Define clase
+una clase es un dato que define el programador, este agrupa atributo y métodos, también es fundamental para la Programación Orientada a Objetos 
+
+2. Define Encapsulamiento
+Es la parte del programa donde controla los detalles de la clase, la parte donde se define Private y Public, esto para proteger datos 
+
+3. Define constructor
+Es lo que ejecuta la parte donde se crea un objeto y ayuda a iniciar valores, a dentro de este existen constructores con parámetros y por defecto
