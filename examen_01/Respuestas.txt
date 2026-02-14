@@ -1,4 +1,4 @@
-Respuestas.md
+Respuestas
 
 1. Define clase
 una clase es un dato que define el programador, este agrupa atributo y métodos, también es fundamental para la Programación Orientada a Objetos 
