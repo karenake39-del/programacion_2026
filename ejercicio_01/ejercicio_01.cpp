@@ -1,6 +1,8 @@
 #include <iostream>
 #include "Estudiante.h"
 
+using namespace std;
+
 int main() {
     std::cout << "= Sistema de Estudiante =" << std::endl;
     std::cout << std::endl;

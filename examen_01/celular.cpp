@@ -1,6 +1,7 @@
-#include "celular.h"
 #include <iostream>
+#include "celular.h"
 
+using namespace std;
 
 Celular::Celular(std::string modelo, std::string pin, std::string marca, bool encendido, double precio) {
     this->modelo = modelo;
